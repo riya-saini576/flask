@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Flask Website</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav>
+
+    <h2>FlaskApp</h2>
+
+    <ul>
+
+        <li><a href="/">Home</a></li>
+
+        <li><a href="/about">About</a></li>
+
+        <li><a href="/contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>Welcome to Flask Website</h1>
+
+<p>
+Build Modern Web Applications using Python Flask.
+</p>
+
+<a href="/about" class="btn">
+Learn More
+</a>
+
+</section>
+
+</body>
+</html>
